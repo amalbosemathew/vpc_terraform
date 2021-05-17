@@ -243,11 +243,11 @@ value = aws_route_table.private.id
 ```sh
 terraform validate
 ```
-### Lets plan the architecture and verify once again.
+#### Lets plan the architecture and verify once again.
 ```sh
 terraform plan
 ```
-### Lets apply the above architecture to the AWS for creating VPC.
+#### Lets apply the above architecture to the AWS.
 ```sh
 terraform apply
 ```
