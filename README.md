@@ -16,6 +16,19 @@
 ## Installation
 
 If you need to download terraform , then click here [Terraform](https://www.terraform.io/downloads.html) .
+Lets create a file for decalring the variables.This is used to declare the variable and the values are passing through the terrafrom.tfvars file.
+
+> Create a variables.tf file
+```sh
+variable "region" {
+}
+variable "key" {
+}
+variable "access_key" {
+}
+variable "secret_key" {
+}
+```
 > Create a provider.tf file 
 ```sh
 provider "aws" {
