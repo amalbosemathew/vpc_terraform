@@ -23,18 +23,11 @@ Lets create a file for declaring the variables.This is used to declare the varia
 
 > Create a variables.tf file
 ```sh
-variable "region" {
-}
-variable "key" {
-}
-variable "access_key" {
-}
-variable "secret_key" {
-}
-variable "vpc_cidr" {
-}
-variable "project" {
-}
+variable "region" {}
+variable "access_key" {}
+variable "secret_key" {}
+variable "vpc_cidr" {}
+variable "project" {}
 ```
 > Create a provider.tf file 
 ```sh
