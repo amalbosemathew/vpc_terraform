@@ -3,8 +3,6 @@
 # Creating VPC through terraform
 
 
-![N|Solid](https://soco-images.s3.ap-south-1.amazonaws.com/ddea1a85816dfdfd30464889d24a1bcb.png)
-
 ## Features
 - Easy to customise and use.
 - Each subnet CIDR block created through automation.
