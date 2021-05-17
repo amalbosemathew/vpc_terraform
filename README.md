@@ -29,7 +29,7 @@ variable "secret_key" {}
 variable "vpc_cidr" {}
 variable "project" {}
 ```
-> Create a provider.tf file 
+### Create a provider.tf file 
 ```sh
 provider "aws" {
   region     = var.region
