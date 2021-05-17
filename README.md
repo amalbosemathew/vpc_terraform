@@ -7,6 +7,7 @@
 - Easy to customise and use.
 - Each subnet CIDR block created through automation.
 - Using tfvars file to access and modify variables.
+- Project name is appended to the resources that are creating.
 
 ## Prerequisites for this project
 - Need AWS CLI access or IAM user access with attached policies for the creation of VPC.
@@ -18,7 +19,7 @@
 If you need to download terraform , then click here [Terraform](https://www.terraform.io/downloads.html) .
 
 
-Lets create a file for decalring the variables.This is used to declare the variable and the values are passing through the terrafrom.tfvars file.
+Lets create a file for declaring the variables.This is used to declare the variable and the values are passing through the terrafrom.tfvars file.
 
 > Create a variables.tf file
 ```sh
