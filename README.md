@@ -51,7 +51,7 @@ secret_key = "put-your-secret-key-here"
 project = "name-of-your-project"
 vpc_cidr = "X.X.X.X/X"
 ```
-Go to the directory that wish to save your tfstate files.Then Initialize the working directory containing Terraform configuration files using below command.
+Go to the directory that you wish to save your tfstate files.Then Initialize the working directory containing Terraform configuration files using below command.
 ```sh
 terraform init
 ```
