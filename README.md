@@ -233,7 +233,7 @@ resource "aws_route_table_association" "private3" {
   route_table_id = aws_route_table.private.id
 }
 ````
-> Create an output.tf for getting  terrafrom output.
+### Create an output.tf for getting  terrafrom output.
 ```sh
 output "aws_eip" {
 value = aws_eip.eip.public_ip
