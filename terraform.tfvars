@@ -1,0 +1,5 @@
+region     = "put-your-region-here"
+access_key = "put-your-access-key-here"
+secret_key = "put-your-secret-key-here"
+project = "name-of-your-project"
+vpc_cidr = "X.X.X.X/X"
