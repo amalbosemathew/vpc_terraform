@@ -21,7 +21,7 @@ If you need to download terraform , then click here [Terraform](https://www.terr
 
 Lets create a file for declaring the variables.This is used to declare the variable and the values are passing through the terrafrom.tfvars file.
 
-> Create a variables.tf file
+### Create a variables.tf file
 ```sh
 variable "region" {}
 variable "access_key" {}
@@ -37,7 +37,7 @@ provider "aws" {
   secret_key = var.secret_key
 }
 ```
-> Create a terraform.tfvars
+### Create a terraform.tfvars
 By default terraform.tfvars will load the variables to the the reources.
 You can modify accordingly as per your requirements.
 
