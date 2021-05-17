@@ -70,6 +70,8 @@ resource "aws_internet_gateway" "igw" {
   }
 }
 ```
+Here in this infrastructre we shall create 3 public and 3 private subnets in the region.This sample was meant for regions having 6 availability zone. I have used "us-east-1". Choose your region and modify according to the availability of the AZ. Also we have already provided the CIDR block in our terraform.tfvars you dont need to calculate the subnets, here we use terrafrom to automate the subnetting in /19.
+
 > Creating public1 Subnet
 ```sh
 resource "aws_subnet" "public1" {
