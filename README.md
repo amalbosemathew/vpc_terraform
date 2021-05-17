@@ -31,6 +31,10 @@ variable "access_key" {
 }
 variable "secret_key" {
 }
+variable "vpc_cidr" {
+}
+variable "project" {
+}
 ```
 > Create a provider.tf file 
 ```sh
