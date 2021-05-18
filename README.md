@@ -67,7 +67,7 @@ resource "aws_vpc" "vpc" {
   }
 }
 ```
-> To Gather All Subent Name
+> To Gather All Subnet Name
 ```sh
 data "aws_availability_zones" "available" {
   state = "available"
