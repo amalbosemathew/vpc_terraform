@@ -128,7 +128,7 @@ resource "aws_subnet" "private1" {
   vpc_id                   = aws_vpc.vpc.id
   cidr_block               = cidrsubnet(var.vpc_cidr, 3, 3)
   availability_zone        = element(data.aws_availability_zones.available.names,3)
-  map_public_ip_on_launch  = true
+  map_public_ip_on_launch  = false
   tags = {
     Name = "${var.project}-private1"
   }
@@ -140,7 +140,7 @@ resource "aws_subnet" "private2" {
   vpc_id                   = aws_vpc.vpc.id
   cidr_block               = cidrsubnet(var.vpc_cidr, 3, 4)
   availability_zone        = element(data.aws_availability_zones.available.names,4)
-  map_public_ip_on_launch  = true
+  map_public_ip_on_launch  = false
   tags = {
     Name = "${var.project}-private2"
   }
@@ -152,7 +152,7 @@ resource "aws_subnet" "private3" {
   vpc_id                   = aws_vpc.vpc.id
   cidr_block               = cidrsubnet(var.vpc_cidr, 3, 5)
   availability_zone        = element(data.aws_availability_zones.available.names,5)
-  map_public_ip_on_launch  = true
+  map_public_ip_on_launch  = false
   tags = {
     Name = "${var.project}-private3"
   }
