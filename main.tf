@@ -135,7 +135,7 @@ resource "aws_subnet" "private3" {
 # ===============================================================================
 
 resource "aws_eip" "eip" {
-  vpc      = true
+  domain   = "vpc"
   tags     = {
     Name = "${var.project}-eip"
   }
